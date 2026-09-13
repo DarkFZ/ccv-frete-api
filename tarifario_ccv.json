@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "fonte": "https://correios.cv/os-ccv/governanca-coorporativa/precario",
+    "documento": "TARIFA_PRODUTOS_E_SERVICOS_CORREIOS_DE_CABO_VERDE_V_01112024",
+    "moeda": "CVE",
+    "data_entrada_em_vigor": "2024-11-01",
+    "nota": "Tarifas nacionais sao unicas para todo o arquipelago (nao ha diferenciacao por ilha de origem/destino). Este documento nao inclui prazos de entrega (dias uteis) - a confirmar noutra fonte."
+  },
+  "correio_normal": {
+    "correspondencia": [
+      { "ate_g": 20, "nacional": 40, "internacional": 60 },
+      { "de_g": 20, "ate_g": 100, "nacional": 90, "internacional": 180 },
+      { "de_g": 100, "ate_g": 250, "nacional": 270, "internacional": 560 },
+      { "de_g": 250, "ate_g": 500, "nacional": 320, "internacional": 650 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 550, "internacional": 1100 },
+      { "de_g": 1000, "ate_g": 2000, "nacional": 880, "internacional": 1940 }
+    ],
+    "impressos_vulgares": [
+      { "ate_g": 40, "nacional": 80, "internacional": 160 },
+      { "de_g": 40, "ate_g": 100, "nacional": 90, "internacional": 180 },
+      { "de_g": 100, "ate_g": 250, "nacional": 300, "internacional": 600 },
+      { "de_g": 250, "ate_g": 500, "nacional": 480, "internacional": 990 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 550, "internacional": 1100 },
+      { "de_g": 1000, "ate_g": 2000, "nacional": 880, "internacional": 1940 }
+    ],
+    "jornais_e_publicacoes_periodicas": [
+      { "ate_g": 40, "nacional": 30, "internacional": 60 },
+      { "de_g": 40, "ate_g": 100, "nacional": 40, "internacional": 90 },
+      { "de_g": 100, "ate_g": 250, "nacional": 70, "internacional": 170 },
+      { "de_g": 250, "ate_g": 500, "nacional": 260, "internacional": 480 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 300, "internacional": 580 },
+      { "de_g": 1000, "ate_g": 2000, "nacional": 420, "internacional": 1030 }
+    ],
+    "pacotes_postais": [
+      { "ate_g": 250, "nacional": 270, "internacional": 560 },
+      { "de_g": 250, "ate_g": 500, "nacional": 320, "internacional": 650 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 550, "internacional": 1100 },
+      { "de_g": 1000, "ate_g": 1500, "nacional": 830, "internacional": 1700 },
+      { "de_g": 1500, "ate_g": 2000, "nacional": 880, "internacional": 1940 }
+    ]
+  },
+  "correio_azul": {
+    "nota": "Servico premium/prioritario face ao Correio Normal",
+    "correspondencia": [
+      { "ate_g": 20, "nacional": 240, "internacional": 370 },
+      { "de_g": 20, "ate_g": 100, "nacional": 315, "internacional": 515 },
+      { "de_g": 100, "ate_g": 250, "nacional": 515, "internacional": 1030 },
+      { "de_g": 250, "ate_g": 500, "nacional": 580, "internacional": 1130 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 880, "internacional": 1725 },
+      { "de_g": 1500, "ate_g": 2000, "nacional": 1340, "internacional": 2830, "nota": "falta escalao 1000-1500g na fonte original" }
+    ],
+    "jornais_e_publicacoes_periodicas": [
+      { "ate_g": 40, "nacional": 250, "internacional": 450 },
+      { "de_g": 40, "ate_g": 100, "nacional": 305, "internacional": 515 },
+      { "de_g": 100, "ate_g": 250, "nacional": 370, "internacional": 715 },
+      { "de_g": 250, "ate_g": 500, "nacional": 585, "internacional": 1060 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 850, "internacional": 1660 },
+      { "de_g": 1000, "ate_g": 2000, "nacional": 1340, "internacional": 2830 }
+    ],
+    "impressos_vulgares": [
+      { "ate_g": 40, "nacional": 280, "internacional": 370 },
+      { "de_g": 40, "ate_g": 100, "nacional": 315, "internacional": 515 },
+      { "de_g": 100, "ate_g": 250, "nacional": 540, "internacional": 950 },
+      { "de_g": 250, "ate_g": 500, "nacional": 730, "internacional": 1345 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 850, "internacional": 1660 },
+      { "de_g": 1000, "ate_g": 2000, "nacional": 1340, "internacional": 2830 }
+    ],
+    "pacotes_postais": [
+      { "ate_g": 250, "nacional": 510, "internacional": 980 },
+      { "de_g": 250, "ate_g": 500, "nacional": 580, "internacional": 1095 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 880, "internacional": 1580 },
+      { "de_g": 1000, "ate_g": 1500, "nacional": 1250, "internacional": 2280 },
+      { "de_g": 1500, "ate_g": 2000, "nacional": 1340, "internacional": 2830 }
+    ]
+  },
+  "correio_expresso_ems": {
+    "escaloes": [
+      { "ate_g": 250, "nacional": 595, "internacional": 2800 },
+      { "de_g": 250, "ate_g": 500, "nacional": 995, "internacional": 3550 },
+      { "de_g": 500, "ate_g": 1000, "nacional": 1500, "internacional": 4300 }
+    ],
+    "fracao_adicional_g": 500,
+    "preco_fracao_adicional": { "nacional": 350, "internacional": 900 }
+  },
+  "encomendas_postais": {
+    "regime_nacional_entrega_balcao": [
+      { "ate_g": 3000, "preco": 875 },
+      { "de_g": 3000, "ate_g": 5000, "preco": 995 },
+      { "de_g": 5000, "ate_g": 8000, "preco": 1175 },
+      { "de_g": 8000, "ate_g": 10000, "preco": 1300 },
+      { "de_g": 10000, "ate_g": 15000, "preco": 1600 },
+      { "de_g": 15000, "ate_g": 20000, "preco": 1990 }
+    ],
+    "regime_nacional_entrega_domicilio": [
+      { "ate_g": 3000, "preco": 1025 },
+      { "de_g": 3000, "ate_g": 5000, "preco": 1145 },
+      { "de_g": 5000, "ate_g": 8000, "preco": 1325 },
+      { "de_g": 8000, "ate_g": 10000, "preco": 1450 },
+      { "de_g": 10000, "ate_g": 15000, "preco": 1750 },
+      { "de_g": 15000, "ate_g": 20000, "preco": 2140 }
+    ],
+    "regime_nacional_recolha_e_entrega_domicilio": [
+      { "ate_g": 3000, "preco": 1225 },
+      { "de_g": 3000, "ate_g": 5000, "preco": 1345 },
+      { "de_g": 5000, "ate_g": 8000, "preco": 1525 },
+      { "de_g": 8000, "ate_g": 10000, "preco": 1650 },
+      { "de_g": 10000, "ate_g": 15000, "preco": 1950 },
+      { "de_g": 15000, "ate_g": 20000, "preco": 2340 }
+    ]
+  },
+  "encomendas_ecommerce": {
+    "nota": "Tarifa dedicada ao e-commerce - o produto mais relevante para a integracao com lojas online",
+    "modalidade_normal": [
+      { "de_g": 0, "ate_g": 500, "preco": 199 },
+      { "de_g": 501, "ate_g": 1000, "preco": 399 },
+      { "de_g": 1001, "ate_g": 2000, "preco": 599 },
+      { "de_g": 2001, "ate_g": 3000, "preco": 699 },
+      { "de_g": 3001, "ate_g": 5000, "preco": 899 }
+    ]
+  },
+  "tarifa_produtos": {
+    "embalagens_postais": [
+      { "modelo": "MOD. A", "preco": 100 },
+      { "modelo": "MOD. B", "preco": 150 },
+      { "modelo": "MOD. C", "preco": 180 },
+      { "modelo": "MOD. F", "preco": 370 }
+    ],
+    "envelopes_almofadados": [
+      { "modelo": "H1", "preco": 100 },
+      { "modelo": "H2", "preco": 120 },
+      { "modelo": "H3", "preco": 130 },
+      { "modelo": "H4", "preco": 140 }
+    ],
+    "postais": [
+      { "tipo": "Postais Antigos", "preco": 30 },
+      { "tipo": "Postais Ilustrados", "preco": 50 },
+      { "tipo": "Minileporelo", "preco": 200 },
+      { "tipo": "Pack Postais Ilustrados", "preco": 350 }
+    ],
+    "postais_de_boas_festas": [
+      { "tipo": "Postal + envelope (Nacional)", "preco": 100 },
+      { "tipo": "Postal + envelope (Internacional)", "preco": 120 },
+      { "tipo": "Postal de boas festas", "preco": 50 }
+    ],
+    "envelopes_personalizados_correio_azul": [
+      { "modelo": "DL", "ate_g": 20, "nacional": 40, "internacional": 40 },
+      { "modelo": "C5", "ate_g": 100, "nacional": 60, "internacional": 60 },
+      { "modelo": "C4", "ate_g": 250, "nacional": 70, "internacional": 70 }
+    ],
+    "envelopes_personalizados_pre_pagos_correio_normal": [
+      { "modelo": "DL", "ate_g": 20, "nacional": 80, "internacional": 100 },
+      { "modelo": "C5", "ate_g": 100, "nacional": 150, "internacional": 240 },
+      { "modelo": "C4", "ate_g": 250, "nacional": 340, "internacional": 630 }
+    ]
+  }
+}
